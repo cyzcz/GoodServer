@@ -10,7 +10,7 @@ import logger from '../../imports/logger'
 import { DefenderRelayer } from './DefenderRelayer'
 const multiLogger = logger.child({ from: 'MultiWallet' })
 
-class MultiWallet {
+export class MultiWallet {
   mainWallet = null
   otherWallets = []
   wallets = []
